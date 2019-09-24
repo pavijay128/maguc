@@ -11,21 +11,22 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lauripiispanen/most-active-github-users-counter/github"
-	"github.com/lauripiispanen/most-active-github-users-counter/top"
+	"mau/github"
+	"mau/top"
 )
 
 type Format func(users GithubUserList, writer io.Writer, options top.Options) error
 
 func PlainOutput(users GithubUserList, writer io.Writer, options top.Options) error {
-	fmt.Fprintln(writer, "USERS\n--------")
+	// fmt.Fprintln(writer, "USERS\n--------")
 	for i, user := range users {
-		fmt.Fprintf(writer, "#%+v: %+v (%+v):%+v (%+v) %+v\n", i+1, user.Name, user.Login, user.ContributionCount, user.Company, strings.Join(user.Organizations, ","))
+		// fmt.Fprintf(writer, "#%+v: %+v (%+v):%+v (%+v) %+v\n", i+1, user.Name, user.Login, user.ContributionCount, user.Company, strings.Join(user.Organizations, ","))
+		fmt.Fprintf(writer, "#%+v: %+v %+v\n", i+1, user.Name, user.Login)
 	}
-	fmt.Fprintln(writer, "\nORGANIZATIONS\n--------")
-	for i, org := range users.TopOrgs(10) {
-		fmt.Fprintf(writer, "#%+v: %+v (%+v)\n", i+1, org.Name, org.MemberCount)
-	}
+	// fmt.Fprintln(writer, "\nORGANIZATIONS\n--------")
+	// for i, org := range users.TopOrgs(10) {
+	// 	fmt.Fprintf(writer, "#%+v: %+v (%+v)\n", i+1, org.Name, org.MemberCount)
+	// }
 	return nil
 }
 

@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/lauripiispanen/most-active-github-users-counter/output"
-	"github.com/lauripiispanen/most-active-github-users-counter/top"
+	"mau/output"
+	"mau/top"
 )
 
 type arrayFlags []string
