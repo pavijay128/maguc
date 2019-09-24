@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"mau/github"
-	"mau/top"
+	"../github"
+	"../top"
 )
 
 type Format func(users GithubUserList, writer io.Writer, options top.Options) error
@@ -21,7 +21,8 @@ func PlainOutput(users GithubUserList, writer io.Writer, options top.Options) er
 	// fmt.Fprintln(writer, "USERS\n--------")
 	for i, user := range users {
 		// fmt.Fprintf(writer, "#%+v: %+v (%+v):%+v (%+v) %+v\n", i+1, user.Name, user.Login, user.ContributionCount, user.Company, strings.Join(user.Organizations, ","))
-		fmt.Fprintf(writer, "#%+v: %+v %+v\n", i+1, user.Name, user.Login)
+		// fmt.Fprintf(writer, "#%+v: %+v %+v\n", i+1, user.Name, user.Login)
+		fmt.Fprintf(writer, "#%+v: %+v @%+v\n", i+1, user.Name, user.Login)
 	}
 	// fmt.Fprintln(writer, "\nORGANIZATIONS\n--------")
 	// for i, org := range users.TopOrgs(10) {

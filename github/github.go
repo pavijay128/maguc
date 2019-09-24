@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"mau/net"
+	"../net"
 )
 
 const root string = "https://api.github.com/"

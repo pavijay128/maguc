@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"mau/github"
-	"mau/net"
+	"../github"
+	"../net"
 )
 
 func GithubTop(options Options) ([]github.User, error) {

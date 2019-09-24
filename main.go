@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"mau/output"
-	"mau/top"
+	"./output"
+	"./top"
 )
 
 type arrayFlags []string
