@@ -11,9 +11,9 @@ You can send PRs throughout the month of October. Don't miss out...
 ### How to contribute?
 
 1. [Fork](https://github.com/Niweera/maguc/fork) this repo.
-2. Clone the repo to your computer.
+2. Clone the forked repo to your computer.
 
-   `git clone https://github.com/<Username>/maguc.git`
+   `git clone https://github.com/<Your-Username>/maguc.git`
 
 3. Look for the file `/presets.go`
 4. Look for your country.
