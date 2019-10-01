@@ -1,34 +1,12 @@
-[Project homepage](https://commits.top/)
-
-# Most Active GitHub Users Counter
-
-This CLI tool queries the GitHub GraphQL API for users and ranks them according to number of contributions. Several preset locations are provided.
-
-**GitHub Token**
-
-In order to make requests against the GitHub API one needs an access token, which can be created [here](https://github.com/settings/tokens). The token needs `read:org` and `read:user` permissions.
-
-**Example usage (dev environment):**
-
-```
-go run *.go \
-   --token paste-your-token-here \
-   --preset worldwide \
-   --amount 500 \
-   --consider 1000 \
-   --output csv \
-   --file ./output.csv
-```
-
-## Contribution
-
-Contributions are accepted. Please provide any input as pull request. As a hobby project, my time is limited, but PRs and issues are addressed regularly.
-
-_Please use the provided precommit hooks and run `go fmt`, `go vet` and `go lint` liberally._
-
 ## Hacktoberfest 2019 Special Announcement
 
+![image](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg)
+
+[Hacktoberfest](https://hacktoberfest.digitalocean.com) is back again for this year. Go to its site and register first.
+
 Just add 4 wonderful yet easy pull requests to this repo and stand a chance to win a limited edition Hacktoberfest shirt.
+
+You can send PRs throughout the month of October. Don't miss out...
 
 ### How to contribute?
 
