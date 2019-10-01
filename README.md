@@ -10,12 +10,16 @@ You can send PRs throughout the month of October. Don't miss out...
 
 ### How to contribute?
 
-1. Fork this repo.
-2. Look for the file `/presets.go`
-3. Look for your country.
-4. Add cities you know.
-5. Send a PR.
-6. Done.
+1. [Fork](https://github.com/Niweera/maguc/fork) this repo.
+2. Clone the repo to your computer.
+
+   `git clone https://github.com/<Username>/maguc.git`
+
+3. Look for the file `/presets.go`
+4. Look for your country.
+5. Add cities you know.
+6. Send a PR.
+7. Done.
 
 > Example:
 
