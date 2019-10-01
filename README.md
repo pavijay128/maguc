@@ -17,7 +17,7 @@ You can send PRs throughout the month of October. Don't miss out...
 
 3. Look for the file `/presets.go`
 4. Look for your country.
-5. Add cities you know.
+5. Add cities you know. (Please add the city in lowercase letters.)
 6. Send a PR.
 7. Done.
 
