@@ -75,7 +75,7 @@ var PRESETS = map[string]PresetLocations{
 	"ghana":        PresetLocations{"ghana", "accra", "kumasi", "sekondi", "ashaiman", "sunyani", "tamale", "tema"},
 	"angola":       PresetLocations{"angola", "luanda", "huambo", "lobito", "benguela"},
 	"nepal":        PresetLocations{"nepal", "kathmandu", "pokhara", "lalitpur", "bharatpur", "birgunj", "biratnagar", "janakpur", "ghorahi"},
-	"yemen":        PresetLocations{"yemen", "sana%27a", "taiz", "aden", "mukalla", "ibb", "Marib"},
+	"yemen":        PresetLocations{"yemen", "sana%27a", "taiz", "aden", "mukalla", "ibb", "marib"},
 	"mozambique":   PresetLocations{"mozambique", "maputo", "matola", "nampula", "beira", "sofala", "chimoio", "tete", "quelimane"},
 	"ivory coast":  PresetLocations{"ivory", "abidjan", "bouak%C3%A9", "daloa", "yamoussoukro"}}
 
